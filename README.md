@@ -1,23 +1,20 @@
 # F123-Spool-EEPROM-Tool
 A software tool to interact with eeprom chips from material spools used with the stratasys F123 series of printers. 
 
----------------------------
-Background Information
---------------------------
+
+# Background Information
 Stratasys F123 series printers require a user to purchase spools of material directly from the company. I do not know of a workaround to be able to use cheap PLA or other materials from third party sources. This tool aims to rectify that and open up F123 series printers to use material not from Stratasys directly.
 
 Stratasys achieves this "lockdown" of material by using a custom eeprom chip on each spool they produce. This chip tracks what kind of material is on the spool and how much remains. If this eeprom could be re-programmed to show 100% material remaining (from 0%), a user could theoretically load third-party material on a spool and re-use this eeprom to convince the printer it's using an official Stratasys spool. This would allow a user to use cheaper materials in F123 series printers.
 
--------------------------
-My Experimentation
-------------------------
+
+# My Experimentation
+
 I started obtaining data by connecting a Tektronix oscilloscope to an eeprom chip from a used Stratasys F123 series material spool. I then plugged this old eeprom spool into a powered F370 printer material bay and captured the communication that occurred between (presumably) the printer's mainboard and the eeprom chip. A .csv of this waveform was exported from the oscilloscope and analyzed using Excel. Screenshots of this waveform are included in this repo. 
 
 I used an Adafruit Trinket M0 to interact with the material spool eeprom chips since I had a spare and it uses +3.3V logic levels. Background research and my experimentation revealed that the custom eeprom chips use a +3.3V logic level to communicate to the printer mainboard. The tool was written using the Arduino IDE and Arduino libraries to upload a sketch to the Trinket M0. 
 
-------------------------
-Repo Contents
-------------------------
+# Repo Contents
 
 The Data directory contains the following:
  1. Screenshots from the waveform captured of the communication between an eeprom chip and an F370 printer mainboard.
