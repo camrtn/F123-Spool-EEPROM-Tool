@@ -1,0 +1,5 @@
+Waveform as captured under the following circumstances:
+
+- Bay 1, 2, and 3 are full. Bay 1/2 = Gray ABS, Bay 3 = QSR
+- EEPROM Cartridge inserted into Bay 4 and waveform captured
+- EEPROM Cartridge used shows "2% QSR" when plugged into printer
