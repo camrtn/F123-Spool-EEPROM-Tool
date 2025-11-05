@@ -18,6 +18,5 @@ The Software directory contains the following:
 
 Circuit.png shows how I hooked up an Adafruit Trinket M0 to interact with the eeprom chip. To hook this circuit up to an oscilloscope and view the waveform of the tool's interaction with the eeprom, connect the GND part of the probe to the M0's GND pin and the data part of the probe between the eeprom chip +3.3V pin and M0's pin 4.
 
------------------------------------------------------------------------------------------------
-To view where I left this project navigate to Data/Screenshots/Received Data/Notes.txt
-----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
+To view where I left this project navigate to Data/Hex-Dumps/Notes.txt
