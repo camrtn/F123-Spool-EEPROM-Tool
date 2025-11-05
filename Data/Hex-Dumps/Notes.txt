@@ -5,5 +5,5 @@ the scratchpad, would have been updated after the print completed to reflect the
 
 My theory is that the updated area of the Scratchpad reflects the last time the eeprom was accessed. I don't know for sure about this though. 
 
-It seems like there is some kind of encryption obscuring the data read from the eeprom. I can't figure out how it works though. There are other open source programs to reprogram older print model eeproms, so I wonder
+It seems like there is some kind of encryption obscuring the data read from the eeprom. I can't figure out how it works though. There are other open source programs to reprogram older Stratasys printer eeproms, so I wonder
 if the de-encryption scheme of those programs would work here. 
