@@ -1,5 +1,5 @@
 # F123-Spool-EEPROM-Tool
-A software tool to interact with eeprom chips from material spools used with the stratasys F123 series of printers. 
+A software tool to interact with eeprom chips from material spools used in the stratasys F123 series of printers. 
 
 
 # Background Information
