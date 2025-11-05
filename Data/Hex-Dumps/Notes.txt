@@ -1,0 +1,3 @@
+This is where I stopped working on this project. The last thing I did was read a HEX dump from an eeprom before and after a print job was done where material was printed from the spool. Those are the 78% and 74% HEX dumps.
+
+When viewing the dumps it appears that only one 
