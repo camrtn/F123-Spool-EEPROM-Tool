@@ -1,3 +1,9 @@
 This is where I stopped working on this project. The last thing I did was read a HEX dump from an eeprom before and after a print job was done where material was printed from the spool. Those are the 78% and 74% HEX dumps.
 
-When viewing the dumps it appears that only one 
+When viewing the dumps it appears that only difference in data is on the eeprom's Scratchpad at location A0. Everything else was the same which was very confusing to me. I would have thought some area in the memory, not just
+the scratchpad, would have been updated after the print completed to reflect the new amount of material remaining on the spool. 
+
+My theory is that the updated area of the Scratchpad reflects the last time the eeprom was accessed. I don't know for sure about this though. 
+
+It seems like there is some kind of encryption obscuring the data read from the eeprom. I can't figure out how it works though. There are other open source programs to reprogram older print model eeproms, so I wonder
+if the de-encryption scheme of those programs would work here. 
